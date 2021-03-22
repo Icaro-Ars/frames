@@ -1,0 +1,64 @@
+body {
+    background-image: url("fundo.jpg");
+    background-repeat: no-repeat;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 5px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.contato {
+    width: 70%;
+    max-width: 500px;
+    padding: 20px;
+    background-color: #DCDCDC;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 7px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.field {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px;
+    border-radius: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.botao {
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color:#fff;
+    display: inline-block;
+    border:1px solid rgb(68, 68, 68);
+    background-color: rgb(128, 127, 127);
+    color:rgb(68, 68, 68);
+    box-shadow: 1px 2px 3px rgb(68, 68, 68);
+    transition: .5s;
+}
+
+
+
+
+
+
+
+
+
+
+
